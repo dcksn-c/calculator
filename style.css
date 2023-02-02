@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    width: 500px;
+    border: 2px solid black;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.row1, .row2, .row3,
+.row4, .row5 {
+    display: flex;
+}
+.display {
+    height: 50px;
+    width: 500px;
+}
+button {
+    flex: 1 1 125px;
+    height: 50px;
+}
+
+.previous {
+    font-size: 15px;
+}
+
+.current {
+    font-size: 20px;
+}
